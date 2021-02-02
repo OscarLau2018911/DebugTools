@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         DebugToolsManager.getInstance().setAdapter(
                 new AnalyseAdapter()
                         .setContext(this)
-                        .setScanPreFix("com.oscarlau")
+                        .setScanPath("/sdcard/aura/lib/") //此处为扫描目录，插件调试一般使用aura目录，不设置为apk目录
+                        .setScanPreFix("com.jd.lib")  //扫描关键字，提升扫描效率
                         .setAnalyst(new DebugToolsAnalyst()));
         DebugToolsManager.getInstance().show();
     }
