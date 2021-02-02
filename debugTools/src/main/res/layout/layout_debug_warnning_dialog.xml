@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_warnning_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发现0处调试代码,请提交前删除!!!">
+    </TextView>
+</LinearLayout>
